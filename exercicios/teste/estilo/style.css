@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to top , rgb(218, 247, 234), rgba(218, 247, 234, 0.76), rgba(218, 247, 234, 0.555));
+    background-attachment: fixed;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    align-items: stretch;
+}
+
+ul > li{
+    transition-timing-function: ease;
+    transition-duration: 2s;
+}

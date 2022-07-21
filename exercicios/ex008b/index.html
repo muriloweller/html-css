@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código fonte / pré formatação</h2>
+    <p>O comando <code>document.getElementeById('teste')</code> é escrito em linguagem JavaScript</p>
+    <pre>
+        <code>
+num = int(input('digite um numero'))
+if num % 2 == 0:
+    print(f 'O número {num} é PAR')
+else:
+    print(f 'O número {num} é IMPAR')
+print('Fim do programa!')
+        </code>
+    </pre><!--só com a tag <code></code> o código não irá aparecer com identação, para isso precisamos coolocar uma outra tag que é tag <pre></pre> que considera como tudo está escrito no documento-->
+
+    <h2>Citações simples</h2>
+    <p>Como diria um pai de um amigo: <q>o computador é um burro muito rápido.</q></p><!--para citações usamos a tag <q></q> que diferente de usar aspas no próprio texto, com a tag podemos dar um sentido dentro do documento HTML-->
+    <h2>Citações completas</h2>
+    <p>Segundo Jeff Noble, no seu livro HTML para leigos</p>
+    <blockquote cite="https://play.google.com/books/reader?id=E8ZtDwAAQBAJ&pg=GBS.PT39.w.9.2.8_171&hl=pt">
+        Se você manter um arquivo HTML aberto tanto no editor de texto quanto no navegador enquanto trabalha, será rápido verificar as mudanças.
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="Hypertext Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>, estou adorando!</p>
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p>
+    <p><bdo dir="ltr">Estou aprendendo a criar coisas em HTML</bdo></p>
+</body>
+</html>
